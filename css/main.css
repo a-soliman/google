@@ -93,7 +93,7 @@ a.button:hover {
 }
 /*select any elements with a class of searchBox and then find any input tags inside*/
 .searchBox input {
-	width: 			50%;
+	width: 			700px;
 	margin: 		0 auto;
 	padding: 		5px;
 	border: 		1px solid #d9d9d9;
@@ -178,61 +178,33 @@ and find all li tags inside then the 3rd anchor tags inside*/
 	font-size: 		14px; 
 }
 
-
-
-@media (max-width: 780px) {
-	.right {
-		display: none;
-	}
-}
-
-
-/*@media (max-width: 350px) {
-	.topNav li:nth-child(4) {
-		display: none;
-	}
-}
-@media (max-width: 440px) {
-	.searchBox img {
-		width: 80%;
-	}
-}
-@media (max-width: 520px) {
+@media (max-width: 400px) {
+	.topNav li:nth-child(4),
 	.topNav li:nth-child(5) {
 		display: none;
-	}
-	.shareButton {
-		display: none;
-	}
-}
-@media (max-width: 530px) {
+	} 
 	.topNav {
-		margin-top: 0;
 		margin-right: 0;
 	}
 }
-@media (max-width: 645px) {
+@media (max-width: 450px) {
 	.profileImg {
 		display: none;
 	}
-
 }
-@media (max-width: 674px) {
-	.topNav li {
-		font-size: 11px;
-	}
-} 
 
-	/*FOR IPAD*/
-/*@media (max-width:795px) {
-	.topnav {
-		margin-right: 50px;
-	}*/
-	/*.right {
+@media (max-width: 520px) {
+	.right {
 		display: none;
-	}*/
+	}
+	.left {
+		float: none;
+		text-align: center;
+	}
 }
-	
 
-	
-
+@media (max-width: 750px) {
+	.searchBox input {
+		width: 80%;
+	}
+}
